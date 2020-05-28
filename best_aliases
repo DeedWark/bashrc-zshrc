@@ -5,6 +5,4 @@ alias ll='ls -l'
 alias ls='ls --color=auto'
 
 #grep
-alias grep='grep --color'
-
-#webdir
+alias grep='grep --color -n'
