@@ -1,0 +1,10 @@
+#ls
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -l'
+alias ls='ls --color=auto'
+
+#grep
+alias grep='grep --color'
+
+#webdir
