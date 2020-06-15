@@ -6,3 +6,10 @@ alias ls='ls --color=auto'
 
 #grep
 alias grep='grep --color -n'
+
+#PYTHON
+alias webdir='python ~/.webdir/.webdir.py'
+
+#TAR
+alias untar='tar xzvf'
+alias tar compress='tar czvf'
