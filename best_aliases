@@ -1,11 +1,12 @@
 #ls
+alias ls='ls --color=auto'
 alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -l'
-alias ls='ls --color=auto'
 
 #grep
 alias grep='grep --color -n'
+
 
 #PYTHON
 alias webdir='python ~/.webdir/.webdir.py'
@@ -13,3 +14,15 @@ alias webdir='python ~/.webdir/.webdir.py'
 #TAR
 alias untar='tar xzvf'
 alias tar compress='tar czvf'
+
+#NETSTAT
+#check openned ports TCP/UDP
+alias ports='netstat -nuta'
+
+#NETCAT 
+#check if port is open -> checkport <ip> <port>
+alias checkport='nc -zv'
+
+#DIG
+alias dig='dig +nocmd +noall +answer'
+
