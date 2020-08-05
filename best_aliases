@@ -23,6 +23,5 @@ alias ports='netstat -nuta'
 #check if port is open -> checkport <ip> <port>
 alias checkport='nc -zv'
 
-#DIG
+#DIG   -> You can create a .digrc file with "+nocmd +noall +answer" in
 alias dig='dig +nocmd +noall +answer'
-
